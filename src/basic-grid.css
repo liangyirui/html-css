@@ -1,0 +1,6 @@
+.basic-grid {
+  display: grid;
+  gap: 1rem;
+  /* use 'auto-fit' or 'auto-fill' with minmax to achieve responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
